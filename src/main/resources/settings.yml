@@ -1,0 +1,10 @@
+database: "postepay"
+
+mysql:
+  enabled: false
+  host: "localhost"
+  username: "root"
+  password: "1234"
+
+sql:
+  enabled: true

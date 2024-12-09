@@ -1,0 +1,14 @@
+name: PostePay
+version: '1.7-LET_ME_COOK'
+main: dev.sussolino.postepay.PostePay
+api-version: '1.20'
+depend: [PlaceholderAPI]
+commands:
+  pay:
+    description: /pay <player> <currency> <amount>
+  bank:
+    description: /bank set/take/give <player> <currency> <amount>
+  balance:
+    description: /balance <player> <economy> || /balance <economy>
+  currency:
+    description: /currency <name>

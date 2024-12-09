@@ -1,0 +1,21 @@
+errors:
+  invalid-amount: "insert a valid value"
+  invalid-currency: "this currency doesn't exist!"
+  invalid-player: "this player doesn't exist!"
+  invalid-money: "you don't have this amount of money!"
+
+balance: "Balance - {balance}"
+
+bank:
+  help: "/bank reload/take/give/set <player> <currency> <amount>"
+  reload: "plugin reloaded!"
+  give: "given {amount} {currency} at {player}"
+  set: "set {amount} {currency} at {player}"
+  take: "taken {amount} {currency} at {player}"
+
+inventory: "currencies"
+
+pay:
+  help: "/pay <player> <currency> <amount>"
+  sender-message: "you have paid ur bills! ({amount} - {currency}) - [{receiver}]"
+  receiver-message: "{sender} has paid his bills! ({amount} - {currency})"
